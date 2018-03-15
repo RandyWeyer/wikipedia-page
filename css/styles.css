@@ -84,13 +84,23 @@ body {
 .panel-image {
   float: right;
 }
-
+.whole-line {
+  text-align: left;
+  text-decoration: underline;
+  margin: 0 10px 0 15px;
+}
 ul li {
   display: inline-block;
-  float: right;
-  margin-right: 10px;
+  margin: 0 10px 0 15px;
 }
 
 ul{
   margin-right:200px;
+}
+.bottom-footer{
+  align-items: center;
+  left: 160px;
+  margin: 0 50px 0 200px;
+  font-size: 0.7em;
+  color: #222;
 }
